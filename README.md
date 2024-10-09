@@ -1,6 +1,6 @@
 # Masterthesis: Multi-modal Vision Transformers for Crop Mapping from Satellite Image Time Series
 
-This repository contains the code for my master thesis. Three of the presented architectures were published at IGARSS 2024. See our paper on [arciv](https://git.tu-berlin.de/rsim/eoekoland). 
+This repository contains the code for my master thesis. Three of the presented architectures were published at IGARSS 2024. See our paper on [arxiv](https://arxiv.org/pdf/2406.16513). 
 
 <details><summary>Abstract</summary>
 Using images acquired by different satellite sensors has been shown to improve classification
