@@ -69,4 +69,14 @@ A model checkpoint can also be used to classify all patches within the Bavaria 2
 ```
 python predict.py --config /path/to/checkpoint/configfile.yaml --checkpoint /path/to/checkpoint/checkpointfile.ckpt  --gpu 2
 ```
+#### example 
+ground truth:
 
+<img src="https://github.com/user-attachments/assets/fb47f132-1e94-4215-85dd-41ff64652835" width="600" />
+<img src="https://github.com/user-attachments/assets/c1bbea89-cca9-4c3c-a368-a1bcd57b2833" width="150" />
+
+
+prediction TSViT with early fusion:
+
+<img src="https://github.com/user-attachments/assets/afadf347-82e4-4194-87f9-4d792ab60797" width="600" />
+<img src="https://github.com/user-attachments/assets/c1bbea89-cca9-4c3c-a368-a1bcd57b2833" width="150" />
