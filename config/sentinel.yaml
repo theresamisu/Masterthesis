@@ -1,0 +1,12 @@
+project_name : eoekoland
+run_name : sentinel
+
+max_epochs : 50
+batch_size : 8
+num_workers : 16
+
+modalities : S # "S1", "S"=S1+S2, "P"=Planet, "ALL"=Planet+S1+S2
+lr: 1e-04
+loss: CE
+
+backbone : TSViT 

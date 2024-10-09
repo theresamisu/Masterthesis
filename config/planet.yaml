@@ -1,0 +1,10 @@
+project_name: eoekoland
+run_name: planet
+
+max_epochs: 50
+
+modalities: P
+
+backbone: C3D # "C3D" = three dimensional CNN, TSViT, U-TAE, tempcnn
+fusion : EARLY # early
+

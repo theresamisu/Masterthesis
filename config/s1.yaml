@@ -1,0 +1,16 @@
+project_name: eoekoland
+run_name: s1
+
+max_epochs: 50
+batch_size: 8
+num_workers: 16
+
+modalities: S1
+use_subset: True
+lr: 1e-04
+loss: CE
+
+backbone: C3D
+
+patchsize: 24
+

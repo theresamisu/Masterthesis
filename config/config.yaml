@@ -1,0 +1,13 @@
+project_name : denethor_fusion
+run_name : no_fusion
+
+max_epochs : 2
+batch_size : 4
+num_workers : 8
+
+modalities : S2 # "S1", "S"=S1+S2, "P5"=Planet5, "P"=Planet, "ALL"=Planet+S1+S2, "ALL_S"=Planet5+S1+S2
+s1: all
+
+backbone : C3D # "C3D" = three dimensional CNN
+
+data_path : /media/storagecube/tfollath/denethor/data
